@@ -1,0 +1,81 @@
+[ {
+  "name" : "scrape_datetime",
+  "dataType" : "Timestamp",
+  "order" : 0,
+  "nullable" : true
+}, {
+  "name" : "Title",
+  "dataType" : "String",
+  "order" : 1,
+  "nullable" : true
+}, {
+  "name" : "Value",
+  "dataType" : "String",
+  "order" : 2,
+  "nullable" : true
+}, {
+  "name" : "Figure",
+  "dataType" : "String",
+  "order" : 3,
+  "nullable" : true
+}, {
+  "name" : "CI",
+  "dataType" : "String",
+  "order" : 4,
+  "nullable" : true
+}, {
+  "name" : "FechaDeVencimiento",
+  "dataType" : "Date",
+  "order" : 5,
+  "nullable" : true
+}, {
+  "name" : "ReportosConBanxico",
+  "dataType" : "Float",
+  "order" : 6,
+  "nullable" : true
+}, {
+  "name" : "GarantiasRecibidasPorBanxico",
+  "dataType" : "Float",
+  "order" : 7,
+  "nullable" : true
+}, {
+  "name" : "ValoresAdquiridosPorBanxico",
+  "dataType" : "Float",
+  "order" : 8,
+  "nullable" : true
+}, {
+  "name" : "SectorBancario",
+  "dataType" : "Float",
+  "order" : 9,
+  "nullable" : true
+}, {
+  "name" : "SieforesYSociedadesDeInversion",
+  "dataType" : "Float",
+  "order" : 10,
+  "nullable" : true
+}, {
+  "name" : "AseguradorasYAfianzadoras",
+  "dataType" : "Float",
+  "order" : 11,
+  "nullable" : true
+}, {
+  "name" : "OtrosResidentesEnElPais",
+  "dataType" : "Float",
+  "order" : 12,
+  "nullable" : true
+}, {
+  "name" : "ResidentesEnElPais",
+  "dataType" : "Float",
+  "order" : 13,
+  "nullable" : true
+}, {
+  "name" : "ResidentesEnElExtranjero",
+  "dataType" : "Float",
+  "order" : 14,
+  "nullable" : true
+}, {
+  "name" : "TotalEnCirculacion",
+  "dataType" : "Float",
+  "order" : 15,
+  "nullable" : true
+} ]
