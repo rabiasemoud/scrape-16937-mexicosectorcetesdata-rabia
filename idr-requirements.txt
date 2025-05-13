@@ -5,4 +5,3 @@
 pandas
 requests
 beautifulsoup4
-pytest
