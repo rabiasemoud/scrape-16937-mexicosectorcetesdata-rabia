@@ -15,7 +15,6 @@ executors:
   idatarepo:
     docker:
       - image: python:3.10-slim
-    working_directory: /usr/src/scrape/
     
 jobs:
   build-and-test:
