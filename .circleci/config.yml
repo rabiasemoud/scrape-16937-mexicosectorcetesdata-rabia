@@ -32,6 +32,9 @@ jobs:
           name: Install Requirements
           command: pip3 install -r requirements.txt
       - run:
+          name: Validate Uploaded Data
+          command: python scraper.py "data/**/*.csv" config/schema.json
+      - run:
           name: Run Scrape
           command: docker-entrypoint.sh bin/run.sh data/output.csv
       - run:
