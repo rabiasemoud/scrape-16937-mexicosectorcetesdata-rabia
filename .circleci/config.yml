@@ -14,10 +14,7 @@ workflows:
 executors:
   idatarepo:
     docker:
-      - image: idatarepo/base-image:latest
-        auth:
-            username: $DOCKER_HUB_USER
-            password: $DOCKER_HUB_TOKEN
+      - image: python:3.10-slim
     working_directory: /usr/src/scrape/
     
 jobs:
