@@ -12,14 +12,6 @@ workflows:
             - proxy
             - docker-hub
 
-executors:
-  idatarepo:
-    docker:
-      - image: idatarepo/base-image:latest
-        auth:
-            username: $DOCKER_HUB_USER
-            password: $DOCKER_HUB_TOKEN
-    working_directory: /usr/src/scrape/
 
 jobs:
   build-and-test:
