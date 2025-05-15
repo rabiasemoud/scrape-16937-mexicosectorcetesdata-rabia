@@ -35,8 +35,5 @@ jobs:
           name: Validate Uploaded Data
           command: python scraper/scraper.py "data/**/*.csv" config/schema.json
       - run:
-          name: Run Scrape
-          command: docker-entrypoint.sh bin/run.sh data/output.csv
-      - run:
           name: Validate Scrape Output
           command: python validate.py data/output.csv config/schema.json
