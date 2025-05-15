@@ -4,6 +4,14 @@
 
 version: 2.1
 
+workflows:
+  build-and-test:
+    jobs:
+      - build-and-test:
+          context:
+            - proxy
+            - docker-hub
+
 jobs:
   build-and-test:
     executor: idatarepo
